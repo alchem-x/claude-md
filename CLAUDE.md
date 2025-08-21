@@ -7,4 +7,7 @@
 ### 技术栈约定
 
 - **脚本语言**：优先使用 Node.js 处理自动化任务
-- **模块系统**：统一使用 ES Modules (import/export)，避免 CommonJS (require/module.exports)
+- **模块系统**：ES Modules 优先
+  - 语法：`import` / `export`（现代标准）
+  - 配置：package.json 添加 `"type": "module"`
+  - 避免：`require()` / `module.exports`（CommonJS 弃用）
