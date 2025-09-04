@@ -6,6 +6,7 @@
 
 ### 技术栈约定
 
+#### JavaScript/Node.js
 - **脚本语言**：优先使用 Node.js 处理自动化任务
 - **模块系统**：ES Modules 优先
   - 语法：`import` / `export`（现代标准）
@@ -15,3 +16,9 @@
   - 检查：运行 `pnpm -v` 确认是否已安装
   - 安装：如未安装，请手动运行 `npm install -g pnpm` 进行全局安装
   - 使用：`pnpm install` 等
+
+#### Java
+- **框架**：Spring Boot 3.x 作为推荐框架
+- **构建工具**：Gradle 8.x（使用 Kotlin DSL）
+- **Java版本**：Java 21+（支持Java 25）
+- **依赖管理**：使用Gradle的Kotlin DSL进行依赖配置
