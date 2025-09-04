@@ -19,6 +19,5 @@
 
 #### Java
 - **框架**：Spring Boot 3.x 作为推荐框架
-- **构建工具**：Gradle 8.x（使用 Kotlin DSL）
+- **构建工具**：Gradle 9.x（使用 Kotlin DSL 进行构建和依赖管理）
 - **Java版本**：Java 21+（支持Java 25）
-- **依赖管理**：使用Gradle的Kotlin DSL进行依赖配置
